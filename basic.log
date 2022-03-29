@@ -1,0 +1,23 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 11:59:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 11:59:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Слово для поиска: ага
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:00:43] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:00:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:00:55] "GET /post/form/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:00:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:02:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:02:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Слово для поиска: а
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:02:37] "GET /search?s=а HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:02:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:04:20] "GET /post/form/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:04:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:10:47] "POST /post/upload/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:10:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:10:47] "GET /uploads/images/foto.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:12:01] "GET /post/form/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2022 12:12:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
